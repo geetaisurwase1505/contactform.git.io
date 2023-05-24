@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+    <div class="center">
+    <h1 style="color: rgb(51, 14, 202);">CONTACT FORM</h1>
+    <hr>
+    <table>
+        <form>
+            <h2 style="color: rgb(51, 14, 202);">Personal Details</h2>
+            <tr>
+                <label for="fname">First Name - </label>
+                <input type="text" Name="fname" id="fname" required><br><br>
+            </tr>
+
+            <tr>
+                <label for="mname">Middle Name - </label>
+                <input type="text" Name="mname" id="mname"><br><br>
+            </tr>
+
+            <tr>
+                <label for="lname">last Name - </label>
+                <input type="text" Name="fname" id="lname" required><br><br>
+            </tr>
+
+            <tr>
+                <label for="Address">Address - </label>
+                <textarea name="message" id="" cols="20" rows="5" placeholder="Enter Your Address"></textarea>
+            </tr><br><br>
+
+            <tr>
+                <label for="Phone">Phone Number - </label>
+                <input type="tel" Name="Phone" id="Phone" maxlength="10"><br><br>
+
+            </tr>
+
+            <tr>
+                <label for="email">Email Id - </label>
+                <input type="email" Name="email" id="email" required>
+                <input type="submit" value="send"><br><br>
+
+            </tr>
+
+            <tr>
+                <label for="DBO">Date Of Birth - </label>
+                <input type="date" name="DBO">
+                <input type="submit"><br><br>
+            </tr>
+
+            Select Your Gender:
+            Male:<input type="radio" Name="Gender">
+            Female:<input type="radio" Name="Gender"><br><br>
+
+            Hobbies:
+            Cricket:<input type="checkbox">
+            Travelling:<input type="checkbox">
+            Sports:<input type="checkbox"><br><br>
+            <hr>
+
+
+            <h2 class="education" style="color: rgb(51, 14, 202);">Educational Details</h2>
+            <tr>
+                <label for="Engineering">Engineering - </label>
+                <select id="Engineering"required>
+                    <option value=""></option>
+                    <option value="">Electronics & Telecommunication</option>
+                    <option value="">Computer Science</option>
+                    <option value="">Mechanical</option>
+                    <option value="">Civil</option>
+                    <option value="">Automobile</option>
+                    <option value="">Electrical</option>
+                </select><br><br>
+            </tr>
+
+            <label for="Degree">Degree - </label>
+            <select id="Degree">
+                <option value=""></option>
+                <option value="">BE</option>
+                <option value="">B TECH</option>
+                <option value="">MBA</option>
+            </select><br><br>
+
+            <tr>
+                <label for="collage">Enetr Your Collage Name - </label>
+                <input type="text" id="collage"required><br><br>
+            </tr>
+
+            <tr>
+                <label for="university">Enetr Your University Name - </label>
+                <input type="text" id="university"required><br><br>
+            </tr>
+            <hr>
+              
+            <tr>
+                Upload images: <input type="file" name="img" multiple><br><br>
+            </tr>
+
+            <tr>
+                Upload Resume: <input type="file" name="CV" multiple><br><br>
+            </tr>
+            
+            <hr>
+            <input type="submit">
+            <input type="reset" value="Clear">
+
+        </div>
+
+        </form>
+</body>
+
+</html>
